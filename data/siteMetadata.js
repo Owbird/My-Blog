@@ -7,20 +7,20 @@ const siteMetadata = {
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://blog.owbird.site',
-  siteRepo: 'https://blog.owbird.site',
-  siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
+  siteRepo: 'https://github.com/owbird/my-blog',
+  siteLogo: `https://owbird.site/assets/img/owbird.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
-  mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
+  // mastodon: 'https://mastodon.social/@mastodonuser',
+  email: 'owbirdphorccuo@gmail.com',
   github: 'https://github.com/owbird',
   x: 'https://twitter.com/_owbird_',
   // twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
-  threads: 'https://www.threads.net',
-  instagram: 'https://www.instagram.com',
-  medium: 'https://medium.com',
+  // facebook: 'https://facebook.com',
+  // youtube: 'https://youtube.com',
+  // linkedin: 'https://www.linkedin.com',
+  // threads: 'https://www.threads.net',
+  // instagram: 'https://www.instagram.com',
+  // medium: 'https://medium.com',
   locale: 'en-US',
   // set to true if you want a navbar fixed to the top
   stickyNav: false,
@@ -48,11 +48,11 @@ const siteMetadata = {
     //   googleAnalyticsId: '', // e.g. G-XXXXXXX
     // },
   },
-  newsletter: {
+  // newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus, beehive
     // Please add your .env file and modify it according to your selection
     provider: 'buttondown',
-  },
+  // },
   comments: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
