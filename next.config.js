@@ -75,8 +75,13 @@ module.exports = () => {
       remotePatterns: [
         {
           protocol: 'https',
-          hostname: 'github.com'
+          hostname: 'github.com',
         },
+        {
+          protocol: 'https',
+          hostname: 'owbird.site',
+        },
+
         {
           protocol: 'https',
           hostname: 'picsum.photos',
