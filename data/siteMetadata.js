@@ -9,7 +9,7 @@ const siteMetadata = {
   siteUrl: 'https://blog.owbird.site',
   siteRepo: 'https://github.com/owbird/my-blog',
   siteLogo: `https://owbird.site/assets/img/owbird.png`,
-  socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
+  socialBanner: `https://owbird.site/assets/img/owbird.png`,
   // mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'owbirdphorccuo@gmail.com',
   github: 'https://github.com/owbird',
