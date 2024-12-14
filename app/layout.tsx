@@ -61,6 +61,8 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const basePath = process.env.BASE_PATH || ''
 
+  const gAnalID = siteMetadata.analytics?.googleAnalytics?.googleAnalyticsId
+
   return (
     <html
       lang={siteMetadata.language}
@@ -96,9 +98,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <link rel="alternate" type="application/rss+xml" href={`${basePath}/feed.xml`} />
       <body className="bg-white pl-[calc(100vw-100%)] text-black antialiased dark:bg-gray-950 dark:text-white">
         <ThemeProviders>
-          {process.env.NODE_ENV !== 'development' && (
-            <GA googleAnalyticsId={siteMetadata.analytics?.googleAnalytics?.googleAnalyticsId!} />
-          )}
+          {process.env.NODE_ENV !== 'development' && gAnalID && <GA googleAnalyticsId={gAnalID} />}
           <SectionContainer>
             <SearchProvider searchConfig={siteMetadata.search as SearchConfig}>
               <Header />
