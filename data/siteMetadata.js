@@ -6,10 +6,10 @@ const siteMetadata = {
   description: 'Owbird\'s Blog',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://blog.owbird.site',
+  siteUrl: 'https://blog.owbird.dev',
   siteRepo: 'https://github.com/owbird/my-blog',
-  siteLogo: `https://owbird.site/assets/img/owbird.png`,
-  socialBanner: `https://owbird.site/assets/img/owbird.png`,
+  siteLogo: `https://owbird.dev/assets/img/owbird.png`,
+  socialBanner: `https://owbird.dev/assets/img/owbird.png`,
   // mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'owbirdphorccuo@gmail.com',
   github: 'https://github.com/owbird',

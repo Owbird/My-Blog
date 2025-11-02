@@ -22,7 +22,7 @@ const Header = () => {
               width={50}
               height={50}
               alt="Site logo"
-              src="https://owbird.site/assets/img/owbird.png"
+              src="https://owbird.dev/assets/img/owbird.png"
             />
           </div>
           {typeof siteMetadata.headerTitle === 'string' ? (

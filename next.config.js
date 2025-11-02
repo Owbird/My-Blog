@@ -79,7 +79,7 @@ module.exports = () => {
         },
         {
           protocol: 'https',
-          hostname: 'owbird.site',
+          hostname: 'owbird.dev',
         },
 
         {
